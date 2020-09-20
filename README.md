@@ -1,22 +1,30 @@
-# ryver-ping-auto-reply
+# Ryver Ping Auto Reply
 
-Ryver bot to automatically send a reply's to pings.This bot will also PM you with the exact contents of the message you were pinged in.
+Ryver bot to automatically send replies to pings and PM the exact contents of the message you were pinged in.
 
-## How to get started.
-### 1) Clone the repository.
-To clone the repository simply run this command in Git:
+## Getting started
+
+### Clone this repository
+To clone the repository, simply run this command in your preferred terminal:
+
 ```sh
 $ git clone https://github.com/DarianAmin/ryver-ping-auto-reply.git
 ```
-### 2) Installing pyryver & asyncio
 
-#### Windows:
-On Windows to install pyryver & asyncio you would first need to open the folders command prompt. You can do this by going to the file explorer folder path box for the folder that the program is in, and type ```cmd ```. This will open the Command Prompt. The next step is to install pyryver & asyncio, you can do this by entering these two commands into the command prompt: 
+Now, navigate into this new directory:
 
-```pip install -U pyryver```- Pyryver
+```sh
+$ cd ryver-ping-auto-reply
+```
 
-```pip install asyncio```- Asyncio
+### Installing dependencies
+The bot currently has one dependency, [`pyryver`](https://pypi.org/project/pyryver/). Install it with the following command:
 
-### 3) Adding your details to the python file. 
+```sh
+$ pip install --upgrade pyryver
+```
 
-Before running your program, you will need to 
+### Adding your Ryver login
+In the `main.py` file, you'll need to replace `Organization_Name`, `Username`, and `Password` with their respective values.
+
+For example, if you typically log into Ryver at `acme.ryver.com` with the username `important_ceo` and the password `password123`, these three values will be `acme`, `important_ceo`, and `password123` respectively.
