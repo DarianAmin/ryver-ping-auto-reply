@@ -12,5 +12,6 @@ $ git clone https://github.com/DarianAmin/ryver-ping-auto-reply.git
 
 #### Windows:
 On Windows to install pyryver & asyncio you would first need to open the folders command prompt. You can do this by going to the file explorer folder path box for the folder that the program is in, and type ```cmd ```. This will open the Command Prompt. The next step is to install pyryver & asyncio, you can do this by entering these two commands into the command prompt: 
+
 ```pip install -U pyryver```- Pyryver
 
