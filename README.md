@@ -15,3 +15,6 @@ On Windows to install pyryver & asyncio you would first need to open the folders
 
 ```pip install -U pyryver```- Pyryver
 
+```pip install asyncio```- Asyncio
+
+
