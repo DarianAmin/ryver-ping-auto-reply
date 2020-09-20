@@ -25,6 +25,6 @@ Before running your program, you will need to add your ryver details to the prog
 
 ```Password``` -replace with your ryver login password.
 
-```Organization``` -replace with your organization name.
+```Organization_Name``` -replace with your organization name.
 
 
