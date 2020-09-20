@@ -19,4 +19,10 @@ On Windows to install pyryver & asyncio you would first need to open the folders
 
 ### 3) Adding your details to the python file. 
 
-Before running your program, you will need to 
+Before running your program, you will need to add your ryver details to the program. You can do this by replacing the place holder names for your details. These could be:
+
+```Username -replace with your ryver username.```
+
+```Password -replace with your ryver login password.```
+
+
