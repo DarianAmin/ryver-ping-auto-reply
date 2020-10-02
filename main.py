@@ -1,5 +1,13 @@
 import pyryver
+from pyryver.objects import Creator
 import asyncio
+
+# Custom name and pfp for bot
+creator = Creator(
+        name="Username of Bot",
+        avatar="Image Address for pfp"
+        )
+
 async def main():
     # Connect to ryver
     async with pyryver.Ryver("Organization_Name", "Username", "Password") as ryver:
